@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NeuralNetwork
 {
-    class Program
+    public enum NeuronType
     {
-        static void Main(string[] args)
-        {
-        }
+        Input = 0,
+        Normal = 1,
+        Output = 2
     }
 }
